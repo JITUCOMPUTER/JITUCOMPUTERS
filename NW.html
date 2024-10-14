@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Responsive Service Website</title> 
+  <link rel="stylesheet" href="COMPUTER%20SHOP.css"> 
+ 
+ </head> 
+ <body> 
+  <!-- Navigation Bar --> 
+  <nav class="navbar"> 
+    <!-- Hamburger icon for mobile --> 
+    <div class="hamburger" onclick="toggleMenu()"> 
+      <div class="bar"></div> 
+      <div class="bar"></div> 
+      <div class="bar"></div> 
+    </div> 
+    <ul class="nav-left"> 
+      <li><a href="#">Home</a></li> 
+        <li><a href="about.html">About</a></li> 
+    </ul> 
+    <div class="nav-center"> 
+      <div class="logo-container"> 
+        <div class="logo-circle">
+          <img class="sip" src="csc.jpg">
+        </div> 
+        <p class="logo-text">JITU COMPUTER</p> 
+      </div> 
+    </div> 
+    <ul class="nav-right"> 
+        <li><a href="contact.html">Contact</a></li> 
+      <li>
+        <div class="dropdown">
+          <button class="service-button">types of certificates <span class="arrow-down"></span></button>
+          <div class="dropdown-content">
+            <a href="#">caste certificate</a>
+            <a href="#">resident certificate</a>
+            <a href="#">income certificate</a>
+            <a href="#">others</a>
+          </div>
+        </div>
+      </li> 
+    </ul> 
+  </nav> 
+
+  <!-- Main Content --> 
+  <section class="main-content"> 
+    <h1 class="section-title">Our Services in Jaipatana, Gandhi Gram Pada, Odisha</h1> 
+    <div class="service-section"> 
+      <div class="service-card"> 
+        <img src="printerservice.jpg"> 
+        <div class="service-info"> 
+          <h2>Certificate & Xerox Services</h2> 
+          <p>We offer document certification and Xerox services to meet the needs of local residents and businesses.</p> 
+        </div> 
+      </div> 
+      <div class="service-card"> 
+        <img src="mini%20bank.jpg"> 
+        <div class="service-info"> 
+          <h2>Mini-Bank Support</h2> 
+          <p>Our mini-bank service allows local residents to conveniently withdraw and deposit money at our center.</p> 
+        </div> 
+      </div> 
+      <div class="service-card"> 
+        <img src="reg.jpeg"> 
+        <div class="service-info"> 
+          <h2>Registration Services</h2> 
+          <p>We provide assistance with registrations for various services, making the process easier for you.</p> 
+        </div> 
+      </div> 
+      <div class="service-card"> 
+        <img src="identity-card-designing-service.jpg"> 
+        <div class="service-info"> 
+          <h2>Identity Cards for Schools & Colleges</h2> 
+          <p>We design and create identity cards for students of schools and colleges, ensuring security and professionalism.</p> 
+        </div> 
+      </div> 
+    </div> 
+      
+  </section> 
+ <section class="main-content"> 
+    <div class="service-section"> 
+      <div class="service-card"> 
+        <img src="weding.jpg"> 
+        <div class="service-info"> 
+          <h2>weeding cards</h2> 
+          <p>A local shop specializes in crafting beautiful, custom wedding cards for small neighborhood communities.</p> 
+        </div> 
+      </div> 
+      <div class="service-card"> 
+        <img src="bank.png"> 
+        <div class="service-info"> 
+          <h2>Banking Service</h2> 
+          <p>A small shop offering banking services provides cash transactions, bill payments, and money transfers for local convenience.</p> 
+        </div> 
+      </div> 
+      <div class="service-card"> 
+        <img src="lamination.jpeg"> 
+        <div class="service-info"> 
+          <h2>Laminantion</h2> 
+          <p>A small shop offers quick document lamination services, protecting important papers from damage and wear.</p> 
+        </div> 
+      </div> 
+     </div>
+      
+  </section> 
+  <!-- Footer --> 
+  <footer> 
+    <ul class="social-media"> 
+      <li><a href="#">Facebook</a></li> 
+      <li><a href="#">Twitter</a></li> 
+      <li><a href="#">YouTube</a></li> 
+      <li><a href="">©copyright</a></li> 
+    </ul> 
+  </footer> 
+  
+  <script>
+    // JavaScript to toggle the dropdown (optional if hover effect is not desired)
+    function toggleDropdown() {
+      document.querySelector('.dropdown-content').classList.toggle('show');
+    }
+  </script>
+     <script>
+    function toggleMenu() {
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+    }
+</script>
+
+ </body>
+</html>
